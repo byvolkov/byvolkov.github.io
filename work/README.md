@@ -1,3 +1,3 @@
 # Site my works
 
-http://byvolkov.github.ip/work
+http://byvolkov.github.io/work
