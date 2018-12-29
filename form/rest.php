@@ -19,12 +19,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
     // get lead data from the form
     $postData = array(
-        'TITLE' => $leadData['TITLE'],
-        'COMPANY_TITLE' => $leadData['COMPANY_TITLE'],
-        'NAME' => $leadData['NAME'],
-        'LAST_NAME' => $leadData['LAST_NAME'],
-        'COMMENTS' => $leadData['COMMENTS'],
+        'TITLE' => $leadData['TITLE'],// инфо, откуда приходят заявки клиентов
+        'NAME' => $leadData['NAME'], // имя клиента
+        'EMAIL_WORK' =>$leadData['COMMENTS'], // эмейл клиента
         'PHONE_WORK' =>$_POST['PHONE'], // сохраняем телефон
+        'COMMENTS' => $leadData['COMMENTS'],// комментарий клиента
     );
 
     // append authorization data
