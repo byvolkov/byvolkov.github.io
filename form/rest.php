@@ -76,7 +76,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
         echo 'Connection Failed! '.$errstr.' ('.$errno.')';
     }
 }
+/*
 else
 {
     $output = '';
-}
+}*/
