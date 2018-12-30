@@ -15,15 +15,13 @@ define('CRM_PASSWORD', '842684265RTTS'); // password of a CRM user
 // POST processing
 if ($_SERVER['REQUEST_METHOD'] == 'POST')
 {
-    $leadData = $_POST['DATA'];
-
     // get lead data from the form
     $postData = array(
-        'TITLE' => $leadData['TITLE'],// инфо, откуда приходят заявки клиентов
-        'NAME' => $leadData['NAME'], // имя клиента
-        'EMAIL_WORK' =>$leadData['EMAIL'], // эмейл клиента
-        'PHONE_WORK' =>$_POST['PHONE'], // сохраняем телефон
-        'COMMENTS' => $leadData['COMMENTS'],// комментарий клиента
+        'TITLE' => $_POST['metka'],// инфо, откуда приходят заявки клиентов
+        'NAME' => $_POST['name'], // имя клиента
+        'EMAIL_WORK' =>$_POST['email'], // эмейл клиента
+        'PHONE_WORK' =>$_POST['phone'], // сохраняем телефон
+        'COMMENTS' => $_POST['comments'],// комментарий клиента
     );
 
     // append authorization data
