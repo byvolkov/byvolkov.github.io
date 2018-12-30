@@ -20,9 +20,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 	// get lead data from the form
 	$postData = array(
 		'TITLE' => $leadData['TITLE'],
-		'COMPANY_TITLE' => $leadData['COMPANY_TITLE'],
 		'NAME' => $leadData['NAME'],
-		'LAST_NAME' => $leadData['LAST_NAME'],
+		'PHONE_WORK' => $leadData['PHONE_WORK'],
+		'EMAIL_WORK' => $leadData['EMAIL_WORK'],
 		'COMMENTS' => $leadData['COMMENTS'],
 	);
 

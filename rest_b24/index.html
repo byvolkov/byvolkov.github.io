@@ -7,10 +7,11 @@
 <body>
 	
 	<form method="post" id="form">
-		 <input type="text" name="" required="1" placeholder="Ваше Имя" /><BR>
-		 <input type="text" name="" required="1" placeholder="Ваш Телефон" /><BR>
-		 <input type="text" name="" required="1" placeholder="Ваш Email" /><BR>
-		 <textarea name="" placeholder="Комментарий к заявке"></textarea><BR>
+		 <input type="hidden" name="DATA[TITLE]">
+		 <input type="text" name="DATA[NAME]" required placeholder="Ваше Имя" /><BR>
+		 <input type="text" name=DATA[PHONE_WORK]" required placeholder="Ваш Телефон" /><BR>
+		 <input type="text" name="DATA[EMAIL_WORK]" required placeholder="Ваш Email" /><BR>
+		 <textarea name="DATA[COMMENTS]" placeholder="Комментарий к заявке"></textarea><BR>
 		 <button>Отправить</button>
 	</form>
 	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
