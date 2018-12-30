@@ -19,9 +19,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
     $postData = array(
         'TITLE' => $_POST['metka'],// инфо, откуда приходят заявки клиентов
         'NAME' => $_POST['name'], // имя клиента
-        'EMAIL_WORK' =>$_POST['email'], // эмейл клиента
+        //'EMAIL_WORK' =>$_POST['email'], // эмейл клиента
         'PHONE_WORK' =>$_POST['phone'], // сохраняем телефон
-        'COMMENTS' => $_POST['comments'],// комментарий клиента
+        //'COMMENTS' => $_POST['comments'],// комментарий клиента
     );
 
     // append authorization data
