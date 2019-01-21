@@ -164,8 +164,8 @@ body {
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #cc2952 !important;
-  border-color: #cc2952 !important;
+  background-color: #9a26a0 !important;
+  border-color: #9a26a0 !important;
   color: #ffffff !important;
 }
 .btn-secondary:hover,
@@ -173,14 +173,14 @@ body {
 .btn-secondary.focus,
 .btn-secondary.active {
   color: #ffffff !important;
-  background-color: #8c1c38 !important;
-  border-color: #8c1c38 !important;
+  background-color: #5e1762 !important;
+  border-color: #5e1762 !important;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #8c1c38 !important;
-  border-color: #8c1c38 !important;
+  background-color: #5e1762 !important;
+  border-color: #5e1762 !important;
 }
 .btn-info,
 .btn-info:active {
@@ -328,22 +328,22 @@ body {
 .btn-secondary-outline,
 .btn-secondary-outline:active {
   background: none;
-  border-color: #771830;
-  color: #771830;
+  border-color: #4b124e;
+  color: #4b124e;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
 .btn-secondary-outline.focus,
 .btn-secondary-outline.active {
   color: #ffffff;
-  background-color: #cc2952;
-  border-color: #cc2952;
+  background-color: #9a26a0;
+  border-color: #9a26a0;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #cc2952 !important;
-  border-color: #cc2952 !important;
+  background-color: #9a26a0 !important;
+  border-color: #9a26a0 !important;
 }
 .btn-info-outline,
 .btn-info-outline:active {
@@ -463,7 +463,7 @@ body {
   color: #149dcc !important;
 }
 .text-secondary {
-  color: #cc2952 !important;
+  color: #9a26a0 !important;
 }
 .text-success {
   color: #f7ed4a !important;
@@ -489,7 +489,7 @@ a.text-primary:focus {
 }
 a.text-secondary:hover,
 a.text-secondary:focus {
-  color: #771830 !important;
+  color: #4b124e !important;
 }
 a.text-success:hover,
 a.text-success:focus {
@@ -1709,7 +1709,7 @@ body {
   background-color: #ffffff;
 }
 .cid-rfOnJFZRAE H1 {
-  color: #cc2952;
+  color: #9a26a0;
   text-align: left;
 }
 .cid-rfOnJFZRAE .mbr-text,
