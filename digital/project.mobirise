@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Preview",
-    "currentPage": "index.html",
+    "currentPage": "contact.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -56,7 +56,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Volkov",
+        "title": "VOLKOV",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -606,7 +606,7 @@
     "contact.html": {
       "settings": {
         "meta_descr": "",
-        "title": "Contact",
+        "title": "CONTACT",
         "order": 2
       },
       "components": [
