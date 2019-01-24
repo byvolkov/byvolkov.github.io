@@ -52,7 +52,7 @@
         "url": "https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i"
       }
     ],
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/0-117bef-f7ab7ed-orig-128x88.png",
     "noImageResize": "",
     "uniqCompNum": 16,
     "versionPublish": "4.9.1",
